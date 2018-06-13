@@ -1,0 +1,6 @@
+[sqs]
+queue_url = "SQS URI"
+
+[worker]
+url = "http://localhost/"
+workers = 10

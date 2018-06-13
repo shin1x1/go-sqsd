@@ -1,0 +1,6 @@
+.idea
+vendor
+go-sqsd.conf
+bin/*
+!bin/.gitkeep
+

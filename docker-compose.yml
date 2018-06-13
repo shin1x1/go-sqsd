@@ -1,0 +1,11 @@
+version: '3'
+services:
+  go:
+    build: "docker"
+    volumes:
+      - .:/go/src/github.com/shin1x1/go-sqsd
+    working_dir: /go/src/github.com/shin1x1/go-sqsd
+    environment:
+     - GOOS=linux
+     - GOARCH=amd64
+
